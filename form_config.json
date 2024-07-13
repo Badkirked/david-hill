@@ -1,0 +1,28 @@
+{
+    "questions": [
+        {"field": "Rack Number", "question": "Rack Number: ", "options": []},
+        {"field": "Location", "question": "Location: ", "options": []},
+        {"field": "Bay", "question": "Bay: ", "options": []},
+        {"field": "Rack Brand", "question": "Rack Brand: ", "options": []},
+        {"field": "Rack Dimensions", "question": "Rack Dimensions: ", "options": []},
+        {"field": "Column", "question": "Column: ", "options": []},
+        {"field": "Arm", "question": "Arm: ", "options": ["1ST HORI", "2ND HORI", "3RD HORI"]},
+        {"field": "Pin", "question": "Pin: ", "options": ["yes", "no"]},
+        {"field": "Pin Color", "question": "Pin Color: ", "options": ["Red", "Amber", "Green"]},
+        {"field": "Clip", "question": "Clip: ", "options": ["yes", "no"]},
+        {"field": "Clip Color", "question": "Clip Color: ", "options": ["Red", "Amber", "Green"]},
+        {"field": "Dyna Bolt", "question": "Dyna Bolt: ", "options": ["yes", "no"]},
+        {"field": "Dyna Bolt Color", "question": "Dyna Bolt Color: ", "options": ["Red", "Amber", "Green"]},
+        {"field": "Base", "question": "Base: ", "options": ["yes", "no"]},
+        {"field": "Base Color", "question": "Base Color: ", "options": ["Red", "Amber", "Green"]},
+        {"field": "Guide Rail", "question": "Guide Rail: ", "options": ["yes", "no"]},
+        {"field": "Guide Rail Color", "question": "Guide Rail Color: ", "options": ["Red", "Amber", "Green"]},
+        {"field": "SWL Chart", "question": "SWL Chart: ", "options": ["yes", "no"]},
+        {"field": "SWL Chart Color", "question": "SWL Chart Color: ", "options": ["Red", "Amber", "Green"]},
+        {"field": "Damaged", "question": "Damaged: ", "options": ["yes", "no"]},
+        {"field": "Damaged Color", "question": "Damaged Color: ", "options": ["Red", "Amber", "Green"]},
+        {"field": "Missing", "question": "Missing: ", "options": ["yes", "no"]},
+        {"field": "Missing Color", "question": "Missing Color: ", "options": ["Red", "Amber", "Green"]},
+        {"field": "Comments", "question": "Comments: ", "options": []}
+    ]
+}
