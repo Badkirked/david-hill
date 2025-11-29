@@ -1,10 +1,10 @@
 <p align="center">
-  <h1 align="center">David Hill</h1>
+  <h1 align="center">David Hill - Docs Automation</h1>
   <p align="center">
-    <strong>Google Docs Integration and Form Configuration</strong>
+    <strong>Google Docs Integration for Inspection Reports</strong>
   </p>
   <p align="center">
-    Python | Google Docs API | Form Configuration | Automation
+    Google Docs API | Automation | Report Generation | Python
   </p>
 </p>
 
@@ -18,22 +18,21 @@
 
 ## Overview
 
-Google Docs integration tool with form configuration and document creation automation.
+Automation tool for generating Google Docs reports from inspection data. Integrates with the David Hill racking inspection system to automatically create formatted inspection reports in Google Docs.
 
 ---
 
 ## Key Features
 
-### Google Docs Integration
-- Document creation
-- Form configuration
-- API integration
-- Automation tools
+### Automation
+- **Document Creation**: Automatically create Google Docs from templates
+- **Data Population**: Populate reports with inspection data
+- **Formatting**: Apply standard formatting and styling
 
-### Configuration
-- JSON-based configuration
-- Form setup
-- Document templates
+### Integration
+- **Google Drive API**: Manage file storage and organization
+- **Google Docs API**: content generation and formatting
+- **JSON Integration**: Read inspection data from output files
 
 ---
 
@@ -41,7 +40,8 @@ Google Docs integration tool with form configuration and document creation autom
 
 ### Prerequisites
 - Python 3.9+
-- Google Docs API credentials
+- Google Cloud Project credentials (JSON)
+- Inspection data output
 
 ### Installation
 ```bash
@@ -61,19 +61,10 @@ python3 create_google_doc.py
 
 ```
 david-hill/
-├── create_google_doc.py  # Document creation script
-├── config.json           # Configuration file
-└── form_config.json      # Form configuration
+├── create_google_doc.py  # Main automation script
+├── config.json           # API configuration
+└── form_config.json      # Report structure
 ```
-
----
-
-## Features
-
-- Google Docs API integration
-- Document creation
-- Form configuration
-- Automation tools
 
 ---
 
@@ -92,6 +83,5 @@ Private repository - All rights reserved.
 ---
 
 <p align="center">
-  <sub>Built for Google Docs integration</sub>
+  <sub>Built for automated reporting</sub>
 </p>
-
